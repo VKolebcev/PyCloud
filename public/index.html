@@ -15,14 +15,28 @@
             <th>Наименование</th>
             <th>Стоимость (р/мес)</th>
             <th>Описание</th>
+            <th>Действие</th>
         </tr>
         {% for post in posts %}
         <tr>
-            <th>{{post.name}}dcd</th>
+            <th>{{post.name}}</th>
             <th>{{post.cost}}</th>
             <th>{{post.description}}</th>
+            <th>
+                <form action="/forward/" method="POST">
+                    <button name={{post.id}} type="submit">Удалить</button>
+                </form>
+            </th>
         </tr>
         {% endfor %}
+        <form action="/add/" method="POST">
+            <tr>
+                <th><input type="text" name="name"></th>
+                <th><input type="text" name="cost"></th>
+                <th><input type="text" name="description"></th>
+                <th><button name="new" type="submit">Добавить</button></th>
+            </tr>
+        </form>
     </table>
 
 </main>

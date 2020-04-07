@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc26cb76-5427-44ae-a4b7-2446903608cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pythonapp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pythonapp.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bc26cb76-5427-44ae-a4b7-2446903608cf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,6 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582896271870</updated>
       <workItem from="1582896274610" duration="3637000" />
-      <workItem from="1583501725810" duration="258000" />
+      <workItem from="1586237149387" duration="6631000" />
     </task>
     <servers />
   </component>
@@ -59,9 +61,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="549" y="171" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1582896311470" />
-    <state x="411" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582896433756">
+    <state x="411" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586237720425">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="411" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582896433756" />
+    <state x="411" y="167" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586237720425" />
+    <state x="181" y="72" key="SettingsEditor" timestamp="1586237163491">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="181" y="72" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586237163491" />
   </component>
 </project>
